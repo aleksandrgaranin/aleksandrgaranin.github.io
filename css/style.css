@@ -271,6 +271,15 @@ footer{
 
   }
 
+@media(max-width: 768px) {
+  .bg{
+    background: url('../img/bg-tel2.svg') no-repeat;
+    }
+  .bg-light-long{
+    border-top: #d37131 3px solid;
+    background: url('../img/bg-tel-light.svg') no-repeat;
+    background-position: top;
+
   header{
     padding-bottom: 20px;
 
