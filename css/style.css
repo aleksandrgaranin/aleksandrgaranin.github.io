@@ -18,7 +18,7 @@ body{
 
 .bg-light-long{
   border-top: #d37131 3px solid;
-  background: url('../img/bg-light-long.svg') no-repeat;
+  background: url('../img/bg-2560-light-long.svg') no-repeat;
   background-position: top;
 }
 
@@ -130,7 +130,7 @@ header a:hover{
   margin-right: 40px;
   text-align: right;
   text-shadow: 3px 3px #99d3e2;
-  font-size: 100px;
+  font-size: 85px;
   color: #aaa0a7;
 }
 
@@ -241,7 +241,6 @@ ul#projects li{
 
 footer{
   padding: 20px;
-  margin-top: 20px;
   color: #35424a;
   background-color: #d37131
 
@@ -287,7 +286,7 @@ footer{
 
   #showcase h1{
     margin-top: 30px;
-    font-size: 70px
+    font-size: 10px;
   }
 
   #newsletter button{
