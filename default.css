@@ -232,7 +232,7 @@ h6 {font-size: 16px;}
 
 #preview-shadow{
     background-color: var(--previewShadow);
-    width: 300px;
+    width: 270px;
     height: 200px;
     padding-left: 30px;
     padding-top: 30px;
@@ -240,7 +240,7 @@ h6 {font-size: 16px;}
 
 
 #preview{
-    width: 300px;
+    width: 270px;
     border:1.5px solid #17a2b8;
     background-color: var(--previeBg);
     padding: 15px;
@@ -303,7 +303,7 @@ h6 {font-size: 16px;}
 
 #social-shadow{
     background-color: var(--previewShadow);
-    width: 300px;
+    width: 270px;
     height: 270px;
     padding-left: 30px;
     padding-top: 30px;
@@ -312,7 +312,7 @@ h6 {font-size: 16px;}
 
 
 #social{
-    width: 300px;
+    width: 270px;
     border:1.5px solid #17a2b8;
     background-color: var(--previeBg);
     padding: 15px;
