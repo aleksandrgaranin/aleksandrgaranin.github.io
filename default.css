@@ -311,12 +311,14 @@ h6 {font-size: 16px;}
 
 
 .post-wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
-    gap: 20px;
+    display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 50px; 
     
+    height: 100%;
+    width: 100%;
+    top: 70px;
+    left: calc(50% - 300px);    
 }
 
 .post{
@@ -336,19 +338,19 @@ h6 {font-size: 16px;}
 }
 
 .post-preview{
-    background-color: #fff;
+    background-color: var(--previewShadow);
     padding:15px;
     border-radius:0 0 7px 7px;
 
 }
 
 .post-title{
-    color:black;    
+    color:var(--mainText);    
     margin: 0;
 }
 
 .post-intro{
-    color: #4b5156;
+    color: var(--secondaryText);
     font-size: 16px;
 }
 
@@ -432,6 +434,47 @@ h6 {font-size: 16px;}
     border-radius: 7px;
 }
 
+/* Card Carousel */
+
+
+ 
+  .card {
+    display: flex;
+    height: 100%;
+    width: 270px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -50px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 5%;
+    transition: 0.4s ease-out;
+  }
+  
+  .title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }          
+
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
@@ -459,4 +502,47 @@ h6 {font-size: 16px;}
         align-items: center;
         padding-left: 0%;
     }
+
+    .post-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin: 0px;
+        justify-content: center;
+        padding-bottom: 50px; 
+        
+        height: 100%;
+        width: 100%;
+        top: 70px;
+        left: 0;    
+    }
+
+    .card {
+        display: flex;
+        height: 100%;
+        width: 270px;
+        background-color: #17141d;
+        border-radius: 10px;
+        box-shadow: -1rem 0 3rem #000;
+      
+        transition: 0s ease-out;
+        position: relative;
+        left: 0px;
+        margin-top: 20px;
+    }
+
+    .card:not(:first-child) {
+        margin-left: 0px;
+    }
+    .card:hover ~ .card {
+        position: relative;
+        left: 0%;
+        transition: 0;
+    }
+    .card:hover {
+        transform: translateY(0px);
+        transition: 0.4s ease-out;
+      }
+      
 }
+
