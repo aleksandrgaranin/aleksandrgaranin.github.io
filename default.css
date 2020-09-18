@@ -321,6 +321,7 @@ h6 {font-size: 16px;}
     left: calc(50% - 300px);    
 }
 
+
 .thumbnail{
     display: block;
     width: 100%;
@@ -335,6 +336,7 @@ h6 {font-size: 16px;}
     border-radius:0 0 7px 7px;
 
 }
+
 
 .post-title{
     color:var(--mainText);    
@@ -422,8 +424,6 @@ h6 {font-size: 16px;}
 
 /* Card Carousel */
 
-
- 
   .card {
     display: flex;
     height: 100%;
@@ -452,14 +452,48 @@ h6 {font-size: 16px;}
     transition: 0.4s ease-out;
   }
   
-  .title {
-    color: white;
-    font-weight: 300;
-    position: absolute;
-    left: 20px;
-    top: 15px;
-  }          
+         
+/* Screenshots */
+.screenshots_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px; 
+    
+    height: 100%;
+    width: 100%;
+    top: 70px;
+    left: calc(50% - 300px); 
+    
+}
 
+.sc_card {
+    display: flex;
+    height: 500px;
+    width: 320px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -0.7rem 0 3rem #000;
+  
+    transition: 0.4s ease-out;
+    position: relative;
+    margin: 10px;
+}
+  
+.sc_card:not(:first-child) {
+    margin-left: 10px;
+}
+  
+.sc_card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+  
+.card:hover ~ .scard {
+    position: relative;
+    left: 5%;
+    transition: 4s ease-out;
+}
 
 @media screen and (max-width: 1200px){
     .main-container{
