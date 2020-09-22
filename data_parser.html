@@ -110,26 +110,35 @@
     </section>
 
     <section class="s2">
-        <div class="main-container">
-            <h3 style="text-align: center;">Get In Touch</h3>
-
-            <form id="contact-form" action="https://formspree.io/xvowlznv" method="POST">
-                <div class="status"><p></p></div>
-                <label for="input-field name">Name</label>
-                <input class="input-field name" type="text" name="name" >
-
-                <label for="subject">Subject</label>
-                <input class="input-field subject" type="text" name="subject" >
-
-                <label for="email">E-mail</label>
-                <input class="input-field email" type="text" name="_replyto" >
-
-                <label for="message">Message</label>
-                <textarea class="input-field message" type="text" name="message" ></textarea>   
-
-                <input id="submit-btn" class="submit" type="submit" value="Send" name="" >
-            </form>
-        </div>
+        <div id="contact" >
+            <div class="sectionheader">	<h1>Email ME</h1></div>
+            <article>
+                
+                    <label for="checkcontact" class="contactbutton"><div class="mail"></div></label><input id="checkcontact" type="checkbox">
+            
+                    <form class="contactform" id="contact-form" action="https://formspree.io/xvowlznv" method="POST">
+                        <div class="status"><p></p></div>
+                        <h6 class="input_wrapper">
+                            <input class="name" type="text" name="name" id ="contact_nom">
+                            <label for="contact_nom name">NAME</label>
+                        </h6>
+                        <h6 class="input_wrapper">
+                            <input class="email" type="text" name="_replyto" id ="contact_email">
+                            <label for="contact_email email">EMAIL</label>
+                        </h6>
+                        <h6 class="input_wrapper">
+                            <input class="subject" type="text" name="contact_sujet" id ="contact_sujet">
+                            <label for="contact_sujet subject">SUBJECT</label>
+                        </h6>
+                        <p class="textarea_wrapper">
+                            <textarea class="message" name="message" id="contact_message"></textarea>
+                        </p>
+                        <p class="submit_wrapper">
+                            <input class="submit" type="submit" value="Send">
+                        </p>			
+                    </form>
+            </article>
+        </div>    
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
