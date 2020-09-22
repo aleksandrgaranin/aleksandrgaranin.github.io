@@ -14,6 +14,8 @@
 
     --buttonColor: #17a2b8;
 
+    --mailButtonCollor: #dd5e23;
+
 }
 
 html, body{
@@ -499,6 +501,7 @@ h6 {font-size: 16px;}
     border:1px solid var(--borderColor);
     border-radius: 10px; 
     position: relative;
+    box-shadow: -0.2rem 0 2rem rgb(19, 13, 4);
 }
 #contact::after {
     content: "";
@@ -532,29 +535,34 @@ h6 {font-size: 16px;}
     background: var(--secondaryColor);
     -webkit-box-shadow: 1px 1px 0 0 var(--previewShadow),2px 2px 0 0 var(--previewShadow),3px 3px 0 0 var(--previewShadow);
     box-shadow: 1px 1px 0 0 var(--previewShadow),2px 2px 0 0 var(--previewShadow),3px 3px 0 0 var(--previewShadow);
+    border-radius: 5px;
     text-align: center;
     display: block;
     width: 100%;
     height: 50px;    
     margin-bottom: 2px;
     cursor: pointer;
+    margin-bottom: 7px;
+
 }
 .contactbutton:hover {
     -webkit-box-shadow: 1px 1px 0 0 var(--previewShadow),0px 0px 0 0 var(--previewShadow),0px 0px 0 0 var(--previewShadow);
     box-shadow: 1px 1px 0 0 var(--previewShadow),0px 0px 0 0 var(--previewShadow),0px 0px 0 0 var(--previewShadow);
     margin-top: 2px;
     margin-left: 2px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 .mail {
     margin-top: 11px;
     font-size: 15px;
     display: inline-block;
     border-top: 2em solid transparent;
-    border-left: 2.6em solid var(--previewShadow);
+    border-left: 2.6em solid var(--mailButtonCollor);
     height: 0;
     width: 0;
     position: relative;
+    border-radius: 5px;
 }
 .mail:before {
     content: '';
@@ -562,22 +570,24 @@ h6 {font-size: 16px;}
     left: -2.95em;
     display: block;
     position: absolute;
-    border-top: 1.2em solid var(--previewShadow);
+    border-top: 1.2em solid var(--mailButtonCollor);
     border-left: 1.6em solid transparent;
     border-right: 1.6em solid transparent;
     border-bottom: 1em solid transparent;
     font-size: 0.8em;
+    
 }
 .mail::after {
     display: block;
     content: "";
     position: absolute;
     border-top: 2em solid transparent;
-    border-right: 2.6em solid var(--previewShadow);
+    border-right: 2.6em solid var(--mailButtonCollor);
     height: 0;
     width: 0;
     left: -2.18em;
     bottom: 0;
+    border-radius: 5px;
 }
 #checkcontact{
     position: absolute;
@@ -591,6 +601,7 @@ h6 {font-size: 16px;}
     -o-transition: all linear 1s;
     -ms-transition: all linear 1s;
     transition: all linear 1s;
+    
 }
 #checkcontact:checked + .contactform {
     max-height: 1000px;
@@ -626,7 +637,7 @@ h6 {font-size: 16px;}
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 1em;
+    padding: 0.7em;
     -webkit-transition: all 250ms ease;
     -moz-transition: all 250ms ease;
     -ms-transition: all 250ms ease;
@@ -635,6 +646,7 @@ h6 {font-size: 16px;}
     color: #5E5E5E;
     text-indent: 20%;
     font-size: 14px;
+    border-radius: 5px;
 }
 .input_wrapper input[type="text"]:focus {
     background:  #DADADA;
@@ -649,7 +661,7 @@ h6 {font-size: 16px;}
     height: 100%;
     background: var(--previewShadow);
     color: var(--mainText);
-    
+    border-radius: 5px;
     box-sizing: border-box;
     width: 20%;
     text-align: center;
@@ -682,6 +694,7 @@ h6 {font-size: 16px;}
     -o-transition: all 250ms ease;
     transition: all 250ms ease;
     color: #5E5E5E;
+    border-radius: 5px;
 }
 .textarea_wrapper textarea:focus {
     background:  #DADADA;
@@ -699,8 +712,8 @@ h6 {font-size: 16px;}
     margin-top: 2px;
     margin-bottom: 0px;
     cursor: pointer;
-    background: #f2e638;
-    color: rgb(252, 2, 2);
+    background: var(--mailButtonCollor);
+    color:  orange;
     
     font-size: 1em;
     border: none;
@@ -712,6 +725,7 @@ h6 {font-size: 16px;}
     -ms-transition: all 250ms ease;
     -o-transition: all 250ms ease;
     transition: all 250ms ease;
+    border-radius: 5px;
 }
 .submit_wrapper input:hover {
     -webkit-box-shadow: 1px 1px 0 0 orange,0px 0px 0 0 orange,0px 0px 0 0 orange;
@@ -719,6 +733,7 @@ h6 {font-size: 16px;}
     margin-top: 2px;
     margin-left: 2px;
     margin-bottom: 0px;
+    border-radius: 5px;
 }
 
 @media (max-width: 500px){
