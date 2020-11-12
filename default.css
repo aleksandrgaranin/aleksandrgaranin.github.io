@@ -504,7 +504,7 @@ h6 {font-size: 16px;}
     border:1px solid var(--borderColor);
     border-radius: 10px; 
     position: relative;
-    box-shadow: -0.2rem 0 2rem rgb(19, 13, 4);
+    box-shadow: 0rem 0 1rem rgb(19, 13, 4);
 }
 #contact::after {
     content: "";
