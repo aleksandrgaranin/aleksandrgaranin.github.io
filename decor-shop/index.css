@@ -26,15 +26,15 @@
   border-bottom: 1px solid black;
   border-radius: 15px;
   box-shadow: 0rem 0 0.5rem rgb(82, 71, 44);
-  padding: 0 15px;
+  padding: 0 7px;
 }
 
 .Nav-element {
-  margin: 1rem;
+  margin: 7px;
   background: transparent;
   border-radius: 7px;
   box-shadow: 0rem 0 0.3rem rgb(82, 71, 44);
-  padding: 2px 15px;
+  padding: 2px 7px;
   cursor: pointer;
 }
 
@@ -180,7 +180,7 @@
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .social-media{
@@ -193,10 +193,10 @@
   width: auto;
   margin: 1em;
   background: rgba(232, 212, 101, 0.6);
-  border:1px solid rgb(19, 13, 4);
+  border:1px solid rgb(82, 71, 44);
   border-radius: 10px; 
   position: relative;
-  box-shadow: -0.2rem 0 2rem rgb(19, 13, 4);
+  box-shadow: 0 0 0.5rem rgb(82, 71, 44);
 }
 #contact::after {
   content: "";
@@ -212,7 +212,7 @@
   z-index: -1;
 }
 #contact article {
-  padding: 1em;
+  padding: 1rem;
 }
 #contact h3 {
   background: var(--previewShadow);
@@ -231,6 +231,7 @@
   -webkit-box-shadow: 1px 1px 0 0 salmon,2px 2px 0 0 salmon,3px 3px 0 0 salmon;
   box-shadow: 1px 1px 0 0 salmon,2px 2px 0 0 salmon,3px 3px 0 0 salmon;
   border-radius: 5px;
+  border:1px solid rgb(49, 43, 27);
   text-align: center;
   display: block;
   width: 100%;
@@ -411,9 +412,9 @@
   cursor: pointer;
   background:rgba(232, 212, 101, 0.6);
   color:  black;
+  border: 1px solid rgb(49, 43, 27);
   
   font-size: 1em;
-  border: none;
   -webkit-box-shadow: 1px 1px 0 0 salmon,2px 2px 0 0 salmon,3px 3px 0 0 salmon;
   box-shadow: 1px 1px 0 0 salmon,2px 2px 0 0 salmon,3px 3px 0 0 salmon;
   -webkit-appearance: none;
@@ -438,6 +439,7 @@
   .Intro {
     height: 800px;
   }
+
 @media (max-width: 710px) {
   .Intro {
     display: grid;
@@ -467,10 +469,4 @@
   .Intro {
     height: 900px;
   }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
