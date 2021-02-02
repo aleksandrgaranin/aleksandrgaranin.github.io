@@ -58,6 +58,7 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 h1 {
@@ -355,6 +356,7 @@ h6 {
   align-content: center;
   text-align: center;
   justify-content: center;
+  margin: 5%;
 }
 
 #social-shadow {
