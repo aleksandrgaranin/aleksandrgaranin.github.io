@@ -201,8 +201,10 @@ h6 {
   margin: 10px;
   border: 1px solid var(--borderColor);
 }
+
 .video {
   border-radius: 15px;
+  width: 95%;
 }
 
 .video-description {
@@ -212,7 +214,7 @@ h6 {
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  width: 50%;
+  width: 70%;
 }
 
 .gallery-container {
@@ -808,11 +810,19 @@ h6 {
     margin-left: 0%;
     width: 100%;
   }
+  .video {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
+  }
+  .video-description {
+    margin-left: 0%;
+    width: 100%;
+
   }
 }
 
@@ -827,8 +837,12 @@ h6 {
   .video-description {
     margin-left: 0%;
     width: 100%;
-
   }
+
+  .video {
+    width: 100%;
+  }
+  
 
   .right-column {
     justify-content: center;
