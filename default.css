@@ -37,7 +37,7 @@ strong,
 a {
   color: var(--mainText);
 
-  font-family: "Indie Flower", cursive;
+  font-family: 'Montserrat', cursive;
 }
 
 p,
@@ -46,8 +46,8 @@ span,
 input,
 textarea {
   color: var(--mainText);
-  font-family: "Dosis", sans-serif;
-  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
 }
 
 a {
@@ -68,7 +68,7 @@ h2 {
   font-size: 36px;
 }
 h3 {
-  font-size: 28px;
+  font-size: 26px;
 }
 h4 {
   font-size: 24px;
@@ -318,7 +318,7 @@ h6 {
 #preview-shadow {
   background-color: var(--previewShadow);
   width: 270px;
-  height: 200px;
+  height: 170px;
   padding-left: 30px;
   padding-top: 30px;
   border-radius: 7px;
@@ -364,7 +364,7 @@ h6 {
 #social-shadow {
   background-color: var(--previewShadow);
   width: 270px;
-  height: 370px;
+  height: 330px;
   padding-left: 30px;
   padding-top: 30px;
   border-radius: 7px;
@@ -490,7 +490,7 @@ h6 {
 .card {
   display: flex;
   height: 100%;
-  width: 300px;
+  width: 350px;
   border-radius: 10px;
   box-shadow: 0rem 0 0.4rem rgb(22, 21, 21);
 
