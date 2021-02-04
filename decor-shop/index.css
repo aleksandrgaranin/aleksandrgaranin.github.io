@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
 
 * {
   display: border-box;
@@ -6,7 +6,26 @@
   margin: 0;
   padding: 0;
   /* background-color: rgb(250, 229, 201); */
-  font-family: "Yusei Magic", sans-serif;
+  font-family: 'Commissioner', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong{
+  font-family: 'Commissioner', sans-serif;
+}
+
+p,
+li,
+span,
+input,
+textarea, a {
+  font-family: 'Commissioner', sans-serif;
+  font-size: 20px;
 }
 
 .container {
@@ -26,7 +45,7 @@
   border-bottom: 1px solid black;
   border-radius: 15px;
   box-shadow: 0rem 0 0.5rem rgb(82, 71, 44);
-  padding: 0 7px;
+  padding: 7px;
 }
 
 .Nav-element {
@@ -34,7 +53,7 @@
   background: transparent;
   border-radius: 7px;
   box-shadow: 0rem 0 0.3rem rgb(82, 71, 44);
-  padding: 2px 7px;
+  padding: 5px 7px;
   cursor: pointer;
 }
 
@@ -60,8 +79,8 @@
 .Company-name {
   grid-area: name;
   background: transparent;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   text-align: center;
   font-size: 25px;
   justify-content: center;
@@ -73,7 +92,7 @@
   margin: 5px;
 
   background-color: rgba(211, 191, 74, 0.816);
-  box-shadow: 0rem 0 1rem rgb(82, 71, 44);
+  box-shadow: 0rem 0 0.1rem rgb(82, 71, 44);
   border-radius: 15px;
   padding: 15px;
 }
@@ -91,6 +110,8 @@
   padding: 10px;
   top: 330px;
   box-shadow: 0rem 0 1rem rgb(82, 71, 44);
+  color: navy;
+
 }
 .Info p span {
   color: rgb(148, 35, 35);
@@ -113,7 +134,8 @@
 }
 
 .Contacts-top {
-  margin: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
   background-color: rgba(240, 155, 91, 0.611);
   border-radius: 15px;
   box-shadow: 0rem 0 1rem rgb(82, 71, 44);
