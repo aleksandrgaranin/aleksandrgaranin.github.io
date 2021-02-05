@@ -206,9 +206,10 @@ textarea, a {
 }
 
 .gallery img {
+  display: block;
   border-radius: 6px 6px 0 0;
   width: 100%;
-  height: auto;
+  height: auto;  
 }
 
 .gallery a {
@@ -236,11 +237,33 @@ textarea, a {
   margin: 15px;
   color: var(--secondaryColor);
 }
-
+/* 
 .fireplace-img {
+  display: block;
   border-radius: 6px ;
   width: 100%;
   height: auto;
+} */
+
+.fireplace-img {
+  border: 1px solid navy;
+  border-radius: 7px;
+}
+
+.fireplace-img:hover {
+  display: block;
+  border: 2px solid var(--borderColor);
+}
+
+.fireplace-img img {
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;  
+}
+
+.fireplace-img a {
+  text-decoration: none;
 }
 
 /* Contact Form */
