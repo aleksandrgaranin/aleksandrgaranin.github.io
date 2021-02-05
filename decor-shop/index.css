@@ -35,6 +35,7 @@ h5,
 h6,
 strong{
   font-family: 'Manrope', sans-serif;
+  
 }
 
 p,
@@ -44,6 +45,8 @@ input,
 textarea, a {
   font-family: 'Manrope', sans-serif;
   font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .container {
@@ -97,7 +100,8 @@ textarea, a {
   border-radius: 5px;
   box-shadow: 0rem 0 1rem rgb(82, 71, 44);
 
-  height: 780px;
+  min-height:750px;
+  /* height:max-content; */
 }
 
 .Company-name {
@@ -516,9 +520,7 @@ textarea, a {
 }
 
 @media (max-width: 810px) {
-  .Intro {
-    height: 800px;
-  }
+  
   .Info p {
     position: relative;
     top: 240px;
@@ -534,7 +536,7 @@ textarea, a {
       "name name name name name name"
       "info info info info info info"
       "info info info info info info";
-    height: 800px;
+    /* height: 800px; */
   }
   .Info p {
     position: relative;
@@ -551,7 +553,5 @@ textarea, a {
   .responsive {
     width: 100%;
   }
-  .Intro {
-    height: 900px;
-  }
+  
 }
