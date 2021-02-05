@@ -76,6 +76,11 @@ textarea, a {
   cursor: pointer;
 }
 
+.Nav-element a {
+  text-decoration: none;
+  color: var(--previewShadow);
+}
+
 
 .Intro {
   display: grid;
@@ -213,15 +218,26 @@ textarea, a {
 }
 
 .responsive {
-  /* background: transparent; */
   border-radius: 7px;
-  /* border: 1px solid var(--borderColor); */
   padding: 5px;
   margin: 0px;
   float: left;
   width: 24.99999%;
 }
 
+
+/* Gallery Page */
+
+.gallery-name {
+  margin: 15px;
+  color: var(--secondaryColor);
+}
+
+.fireplace-img {
+  border-radius: 6px ;
+  width: 100%;
+  height: auto;
+}
 
 /* Contact Form */
 
