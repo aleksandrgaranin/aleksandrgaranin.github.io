@@ -24,7 +24,7 @@
   margin: 0;
   padding: 0;
   /* background-color: rgb(250, 229, 201); */
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 h1,
@@ -34,7 +34,7 @@ h4,
 h5,
 h6,
 strong{
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 p,
@@ -42,7 +42,7 @@ li,
 span,
 input,
 textarea, a {
-  font-family: 'Commissioner', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 20px;
 }
 
