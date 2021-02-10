@@ -37,7 +37,7 @@ strong,
 a {
   color: var(--mainText);
 
-  font-family: 'Montserrat', cursive;
+  font-family: "Montserrat", cursive;
 }
 
 p,
@@ -46,7 +46,7 @@ span,
 input,
 textarea {
   color: var(--mainText);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
 }
 
@@ -204,7 +204,7 @@ h6 {
 
 .video {
   border-radius: 15px;
-  width: 95%;
+  width: 100%;
 }
 
 .video-description {
@@ -232,6 +232,36 @@ h6 {
   background-color: var(--secondaryColor);
   border-bottom: 1px solid var(--borderColor);
   overflow: auto;
+}
+
+/* More-info-page */
+
+.app-gallery-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-video-wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+  width: fit-content;
+  overflow: auto;
+}
+
+.app-video-wrapper p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.app-video {
+  border-radius: 7px;
 }
 
 /* Index */
@@ -813,6 +843,10 @@ h6 {
   .video {
     width: 100%;
   }
+
+  .app-video {
+    width: 80vw;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -822,7 +856,6 @@ h6 {
   .video-description {
     margin-left: 0%;
     width: 100%;
-
   }
 }
 
@@ -842,7 +875,10 @@ h6 {
   .video {
     width: 100%;
   }
-  
+
+  .app-video {
+    width: 80vw;
+  }
 
   .right-column {
     justify-content: center;
