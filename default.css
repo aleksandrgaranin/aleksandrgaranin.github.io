@@ -21,6 +21,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: var(--mainColor);
 }
 
 body * {
@@ -87,6 +88,11 @@ h6 {
   padding: 0;
   color: var(--mainText);
 }
+.qr-link {
+  text-decoration: none;
+  color: #17a2b8;
+  font-size: 20px;
+}
 
 .s1 {
   background-color: var(--mainColor);
@@ -127,6 +133,7 @@ h6 {
     "nav-wrapper nav-wrapper"
     "left-column right-column";
 }
+
 
 .nav-wrapper {
   grid-area: nav-wrapper;
@@ -242,6 +249,14 @@ h6 {
 }
 
 /* More-info-page */
+
+.qr-code-container{
+  justify-content: space-around;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
 
 .app-gallery-container {
   max-width: 1500px;

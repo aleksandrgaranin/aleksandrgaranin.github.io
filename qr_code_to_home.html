@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Yusei+Magic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="" />
+    <title>Aleks's Hub</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  </head>
+  <body>
+    <section class="s1">
+      <div class="main-container">
+        <div><br /></div>
+
+        <div class="intro-wrapper">
+          <div class="nav-wrapper">
+            <div class="dots-wrapper">
+              <a href="index.html">HOME</a>
+            </div>
+            <div class="person-theme">
+              <div id="theme-options-wrapper">
+                <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                <div
+                  data-mode="purple"
+                  id="purple-mode"
+                  class="theme-dot"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="left-column">
+            <div class="app-header">
+              <h3>QR Code to Aleks's Hub</h3>             
+            </div>
+            <div class="app-description">
+              <p>
+                This QR code leeds to <a href="https://aleksandrgaranin.github.io/">aleksandrgaranin.github.io/</a> web page
+              </p>
+              <p></p>
+            </div>
+          </div>
+          <div class="qr-code-container">
+              <img class="decription-pic" src="images/qr-ag.webp" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+   
+    <section class="s2">
+      <div id="contact">
+        <div class="sectionheader"><h1>Email ME</h1></div>
+        <article>
+          <label for="checkcontact" class="contactbutton"
+            ><div class="mail"></div></label
+          ><input id="checkcontact" type="checkbox" />
+
+          <form
+            class="contactform"
+            id="contact-form"
+            action="https://formspree.io/xvowlznv"
+            method="POST"
+          >
+            <div class="status"><p></p></div>
+            <h6 class="input_wrapper">
+              <input class="name" type="text" name="name" id="contact_nom" />
+              <label for="contact_nom name">NAME</label>
+            </h6>
+            <h6 class="input_wrapper">
+              <input
+                class="email"
+                type="text"
+                name="_replyto"
+                id="contact_email"
+              />
+              <label for="contact_email email">EMAIL</label>
+            </h6>
+            <h6 class="input_wrapper">
+              <input
+                class="subject"
+                type="text"
+                name="contact_sujet"
+                id="contact_sujet"
+              />
+              <label for="contact_sujet subject">SUBJECT</label>
+            </h6>
+            <p class="textarea_wrapper">
+              <textarea
+                class="message"
+                name="message"
+                id="contact_message"
+              ></textarea>
+            </p>
+            <p class="submit_wrapper">
+              <input class="submit" type="submit" value="Send" />
+            </p>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
